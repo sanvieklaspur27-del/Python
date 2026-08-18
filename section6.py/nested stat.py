@@ -57,7 +57,7 @@ def func(x):
     return x
 print(x)
 print(func(x))
-print(x)
+print(x)  # 'gnew value'
 
 
 
