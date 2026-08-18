@@ -44,4 +44,4 @@ list(filter(lambda num:num%2==0,mynums)) #[2,4,6]
 print(list(filter(lambda num:num%2==0,mynums)))  #2
 
 names=['Andy','Evey','Sanii']
-print(list(map(lambda x:x[0],names)))
+print(list(map(lambda x:x[0],names)))  #A,E,S

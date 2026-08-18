@@ -37,3 +37,5 @@ def myfunc(*args,**kwargs):
     print('I would like {} {}'.format(args[0],kwargs['food']))
     myfunc(10,20,30,fruits='orange',food='eggs',animal='dog')
     print(myfunc)
+
+    
