@@ -62,11 +62,11 @@ class Animal():
 
 class Dog(Animal):
     def speak(self):
-        return self.name+"says woof!"
+        return self.name+" says woof!"
 
 class Cat(Animal):
     def speak(self):
-        return self.name+"says meow!"
+        return self.name+" says meow!"
 
 fido=Dog("Fido")
 isis=Cat("Isis")
