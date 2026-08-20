@@ -23,15 +23,7 @@ my_dog=Dog(breed='Lab' ,name='Sammy' ,spots=False)
 print(type(my_dog))  #__main__.Dog
 print(my_dog.breed)  #Lab
 print(my_dog.name)   #Sammy
-print(my_dog.spots)   
-
-
-
-
-
-
-
-
+print(my_dog.spots)  #False 
 
 
 class Dog():
