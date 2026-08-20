@@ -94,7 +94,7 @@ print('Welcome to Tic Tac Toe')
 
 while True:
     #play the game
-    ##SET EVERYTHING UP (BOARD , WHOS FIRST,CHOOSE MARKERS X,0)
+    ##SET EVERYTHING UP (BOARD , WHOS FIRST,CHOOSE MARKERS X,O)
     the_board=['']*10
     player1_marker,player2_marker=player_input()
 
@@ -157,21 +157,6 @@ while True:
           else:
             turn = 'Player 1'
          
-         
-
-        
-
-         
-         
-    
-
-
-     
-
-
-    ###PLAYER TWO TURN
-
-
      if not replay():
          break
 
