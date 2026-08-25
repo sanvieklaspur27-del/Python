@@ -5,6 +5,7 @@ print(type(mylist))  #list
 
 class Sample():  #created a sample class
     pass
+
 my_sample=Sample()
 print(type(my_sample))  #__main__.Sample
 
